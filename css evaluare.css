@@ -1,0 +1,183 @@
+<style>
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">
+
+body {
+  font-family: "Sofia", sans-serif;
+}
+
+#animatedText {
+            font-family: 'Arial', sans-serif;
+            font-size: 38px;
+            color: #3498db;
+            animation: rotateColor 5s linear infinite;
+	    display: flex;
+	    white-space: nowrap;
+            text-shadow: 2px 2px grey;
+	    
+        }
+
+        @keyframes rotateColor {
+            0% {
+                margin-left:655px;
+		margin-right:790px;
+                color: #3498db;
+            }
+            25% {
+                margin-left:735px;
+		margin-right:735px;
+                color: #e74c3c;
+            }
+            50% {
+                margin-left:655px;
+		margin-right:790px;
+                color: #2ecc71;
+            }
+            75% {
+                margin-left:735px;
+		margin-right:735px;
+                color: #f39c12;
+            }
+            100% {
+                margin-left:655px;
+		margin-right:790px;
+                color: #3498db;
+            }
+        }
+
+h1 {
+  text-transform: uppercase;
+  line-height: 0.7;
+  text-shadow: 1px 1px red;
+  font-size: 45px;
+  font-family: "Sofia", sans-serif;
+  background: #ff9999;
+  padding: 15px;	
+}
+
+h3 {
+	font-size: 20px;
+	font-family: "Times New Roman", Times, serif;
+}
+
+h1, h3 {
+	text-align: center;
+}
+
+
+body {
+	background-color: #FAEBD7;
+}
+
+div img {
+    width: 600px;
+    height: 360px;
+    opacity: 0.7;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color:white;
+  background-color: #3c3c3c;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  width: 25%;
+}
+
+.button:hover {background-color: #ffa500}
+
+.button:active {
+  background-color:#ffa500;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.center {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+
+table, th, td {
+  border-style: solid;
+  border-width: 2px;
+  border-color: red;
+  text-align: center;
+  vertical-align: center;
+}
+
+tr:hover {background-color: coral;}
+
+table {
+	width: 60%;
+	table-align: center;
+	margin-bottom: 30px;
+}
+
+th {
+	text-shadow: 2px 2px 5px #000000;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-style: oblique;
+	background-color: #FF7F50;
+}
+
+td {
+	text-transform: capitalize;
+}
+
+p {
+	text-transform: uppercase;	
+	text-decoration-line: underline;
+	text-decoration-color: coral;
+	font-style: oblique;
+	font-size: 30px;
+	text-shadow: 2px 2px 5px red;
+}
+
+ul {
+	font-size: 23px;
+	display: table;
+        margin: 0 auto;
+}
+
+.left {
+	text-align: left;
+}
+
+.right {
+	text-align: right;
+}
+
+.slideshow-container {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.mySlides {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+
+</style>
